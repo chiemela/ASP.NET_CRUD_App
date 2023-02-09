@@ -12,7 +12,7 @@ build_property.RootNamespace = CRUDAzureWebApp
 build_property.ProjectDir = C:\Users\chiem\source\repos\ASP.NET_CRUD_App\CRUDAzureWebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\chiem\source\repos\ASP.NET_CRUD_App\CRUDAzureWebApp
 build_property._RazorSourceGeneratorDebug = 
 
