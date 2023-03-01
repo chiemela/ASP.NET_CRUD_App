@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\CRUDAzureWebApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\chiem\\source\\repos\\ASP.NET_CRUD_App\\CRUDAzureWebApp\\wwwroot\\css\\bootswatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\bootswatchTheme.css"
+    },
+    {
       "Id": "C:\\Users\\chiem\\source\\repos\\ASP.NET_CRUD_App\\CRUDAzureWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

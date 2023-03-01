@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CRUDAzureWebApp",
+    "\\CRUDAzureWebApp\\Controllers",
+    "\\CRUDAzureWebApp\\Views",
+    "\\CRUDAzureWebApp\\Views\\Category"
   ],
   "SelectedNode": "\\CRUDAzure.sln",
   "PreviewInSolutionExplorer": false

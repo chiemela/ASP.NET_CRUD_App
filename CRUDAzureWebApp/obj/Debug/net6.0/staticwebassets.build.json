@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wl/O6D2QKqi9m7pHw6vTHG1IfrteTCptmuksA/GwuyE=",
+  "Hash": "DLo71Uk4ttYpkXEdD7sRl781Yrv71qnknuB1ZFwTdPs=",
   "Source": "CRUDAzureWebApp",
   "BasePath": "_content/CRUDAzureWebApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\chiem\\source\\repos\\ASP.NET_CRUD_App\\CRUDAzureWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CRUDAzureWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\chiem\\source\\repos\\ASP.NET_CRUD_App\\CRUDAzureWebApp\\wwwroot\\css\\bootswatchTheme.css",
+      "SourceId": "CRUDAzureWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chiem\\source\\repos\\ASP.NET_CRUD_App\\CRUDAzureWebApp\\wwwroot\\",
+      "BasePath": "_content/CRUDAzureWebApp",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\chiem\\source\\repos\\ASP.NET_CRUD_App\\CRUDAzureWebApp\\wwwroot\\css\\site.css",
