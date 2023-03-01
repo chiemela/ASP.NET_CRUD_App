@@ -39,6 +39,7 @@ namespace CRUDAzureWebApp.Controllers
 
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
 
             }
@@ -55,7 +56,13 @@ namespace CRUDAzureWebApp.Controllers
                 return NotFound();
             }
             var categoryFormDB = _db.Categories.Find(id);
-            return View();
+
+            if (categoryFormDB == null)
+            {
+                return NotFound();
+            }
+
+            return View(categoryFormDB);
         }
 
         // POST
@@ -70,13 +77,52 @@ namespace CRUDAzureWebApp.Controllers
             if (ModelState.IsValid)
             {
 
-                _db.Categories.Add(obj);
+                _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category updated successfully";
                 return RedirectToAction("Index");
 
             }
 
             return View();
+
+        }
+
+        // GET
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var categoryFormDB = _db.Categories.Find(id);
+
+            if (categoryFormDB == null)
+            {
+                return NotFound();
+            }
+
+            return View(categoryFormDB);
+        }
+
+        // POST
+        [HttpPost,ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePOST(int? id)
+        {
+
+            var obj = _db.Categories.Find(id);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            _db.Categories.Remove(obj);
+            _db.SaveChanges();
+            TempData["success"] = "Category deleted successfully";
+            return RedirectToAction("Index");
+
 
         }
     }

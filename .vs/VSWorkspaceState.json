@@ -6,6 +6,6 @@
     "\\CRUDAzureWebApp\\Views",
     "\\CRUDAzureWebApp\\Views\\Category"
   ],
-  "SelectedNode": "\\CRUDAzure.sln",
+  "SelectedNode": "\\CRUDAzureWebApp\\Controllers\\CategoryController.cs",
   "PreviewInSolutionExplorer": false
 }
